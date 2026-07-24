@@ -1,0 +1,8 @@
+﻿"R_ROLL"= 5mm
+"D_SUN"= 120mm
+"NUM_ROLL"= 31
+"RHO"= 1mm
+"D_SHAFT"= 28mm
+"D_OUTPUT"= 80mm
+"NUM_OUT"= 8
+"R_OUT_ROLL"= 5mm
