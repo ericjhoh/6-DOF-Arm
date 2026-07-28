@@ -1,0 +1,27 @@
+15:1 Gearbox Parameters:
+
+Outer Ring Diameter: 80 mm
+Radius of Rollers: 5 mm (10 mm Diameter)
+Number of Roller: 16
+Eccentricity: 1 mm
+Diameter of Camshaft: 15 mm
+Diameter of Output: 35 mm
+Number of Output Rollers: 6
+Radius of Output Rollers: 5 mm (10 mm Diameter)
+Thickness of Disk: 8 mm
+
+2 Cycloidal Disks 180 Degrees apart
+
+
+X = (R*cos(t))-(Rr*cos(t+arctan(sin((1-N)*t)/((R/EN)-cos((1-N)*t)))))-(E*cos(N*t))
+Y = (-R*sin(t))+(Rr*sin(t+arctan(sin((1-N)*t)/((R/EN)-cos((1-N)*t)))))+(E*sin(N*t))
+
+X = (35*cos(t))-(5*cos(t+arctan(sin((1-16)*t)/((35/(1*16))-cos((1-16)*t)))))-(1*cos(16*t))
+    (35*cos(t))-(5*cos(t+arctan(sin((1-16)*t)/((35/(1*16))-cos((1-16)*t)))))-(1*cos(16*t))
+
+Y = (-35*sin(t))+(5*sin(t+arctan(sin((1-16)*t)/((35/(1*16))-cos((1-16)*t)))))+(1*sin(16*t))
+    (-35*sin(t))+(5*sin(t+arctan(sin((1-16)*t)/((35/(1*16))-cos((1-16)*t)))))+(1*sin(16*t))
+
+
+Camshaft bearings: 10mm x 15mm x 4mm
+https://www.amazon.com/uxcell-6700ZZ-Groove-Bearings-Shielded/dp/B082PPYZQX/ref=sr_1_3?dib=eyJ2IjoiMSJ9.9mjWA7yjl7PLM8VFgKksVvffkaRx66ubk9KsZO5brFEoK6ghYnk1Og41Nxg7WQmfQRPLehXz5xgi1PxLYs1Jzjo5f8aRCS0wERKRIORHhIBZSjoKgBzd0US2MAqUmQPcv-HWzlg8YKizxy_9snH7qaIzG7SmsyNvYfdhCEdwpwPBfRRvODR9Onx2YAHzcXboDp5DxM5P_rCdsO2MKqbuOsv-fw-Ly7C1v7pZJdmCqAc.TBNTu30br3DEZjtpBye96OYUshcEkLMYAP4-ZM93f9k&dib_tag=se&keywords=15mm%2Bbearing&qid=1785209760&sr=8-3&th=1
